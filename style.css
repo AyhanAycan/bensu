@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body {
+    background-image: url(manza.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.info {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 128, 255);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 5%;
+    margin: 0 200px 0 0;
+}
+.info ul {
+    gap: 30px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+header {
+    background: linear-gradient(to right, rgb(255, 255, 255)1%, rgba(160, 44, 44, 255));
+    width: 100%;
+    height: 130Px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    border-bottom: 2px solid rgb(2, 2, 100, 0.5);
+}
+.logo {
+    width: 200px;
+    height: 90px
+}
+.logo img {
+    width: 200px;
+    height: 90px
+}
+menu ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    justify-content: right;
+    text-align: end;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+}
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar {
+    width: 100%;
+    height: 80px;
+    background: rgba(103, 198, 221, 0.4);
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.navbar li a {
+    background: rgba(191, 114, 116, 0.4) 30px;
+    border-radius: 15px;
+    border: 2px solid blue;
+    padding: 7px 20px;
+}
+.navbar ul li a:hover {
+    background: rgba(160, 44, 44, 255);
+}
